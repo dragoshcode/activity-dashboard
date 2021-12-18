@@ -60,10 +60,10 @@ button {
 
 main {
   margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 
 article {
-  grid-template-rows: repeat(7, 1fr);
   width: 90%;
   margin: 0 auto;
 }
@@ -80,6 +80,7 @@ article {
   border-radius: 2rem;
   z-index: 9;
   gap: 2rem;
+  transform: translateY(2rem);
 }
 .user__data img {
   width: 22%;
@@ -105,12 +106,11 @@ article {
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   justify-content: space-between;
-  transform: translateY(-2rem);
 }
 .user__states button {
+  transform: translateY(0.7rem);
   color: #6f76c8;
   font-size: 1.5rem;
-  transform: translateY(0.8rem);
 }
 
 .image {
@@ -118,6 +118,7 @@ article {
   border-top-right-radius: 2rem;
   height: 9rem;
   overflow: hidden;
+  transform: translateY(5rem);
 }
 .image img {
   position: relative;
@@ -132,7 +133,6 @@ article {
   border-radius: 2rem;
   gap: 1rem;
   position: relative;
-  transform: translateY(-5rem);
 }
 .data__activity {
   justify-content: space-between;
