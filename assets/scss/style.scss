@@ -1,3 +1,4 @@
-body{
-    background-color: firebrick;
-}
+@forward "media";
+@forward "reset";
+@use "variables" as v;
+

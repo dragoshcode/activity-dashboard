@@ -1,3 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
-  background-color: firebrick;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.orange {
+  background-color: #ff8c66;
+}
+
+.blue {
+  background-color: #56c2e6;
+}
+
+.pink {
+  background-color: #ff5c7c;
+}
+
+.lime {
+  background-color: #4acf81;
+}
+
+.purple {
+  background-color: #7536d3;
+}
+
+.yellow {
+  background-color: #f1c65b;
 }

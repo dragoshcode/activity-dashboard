@@ -1,0 +1,51 @@
+@use "variables" as v;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  // * See if needed / overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.grid{
+  display: grid;
+}
+
+.flex{
+  display: flex;
+}
+
+.orange{
+  background-color: v.$orange;
+}
+
+.blue{
+  background-color: v.$soft-blue;
+}
+
+.pink{
+  background-color: v.$pink;
+}
+
+.lime{
+  background-color: v.$lime;
+}
+
+.purple{
+  background-color: v.$purple;
+}
+
+.yellow{
+  background-color: v.$yellow
+}
