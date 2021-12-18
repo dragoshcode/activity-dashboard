@@ -5,11 +5,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 
 html {
   font-size: 62.5%;
-  // * See if needed / overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -17,7 +18,16 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  // background-color: v.$vr-dk-blue;
 }
+
+button{
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
 .grid{
   display: grid;
 }
