@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
+  color: white; // !!!!! Delete later 
 }
 
 html {
@@ -14,11 +15,11 @@ html {
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
   min-height: 100vh;
-  // background-color: v.$vr-dk-blue;
+  width: 100%;
+  background-color: v.$vr-dk-blue;
 }
 
 button{
@@ -41,7 +42,7 @@ button{
 }
 
 .blue{
-  background-color: v.$soft-blue;
+  background-color: v.$soft-blue
 }
 
 .pink{
@@ -59,4 +60,3 @@ button{
 .yellow{
   background-color: v.$yellow
 }
-
