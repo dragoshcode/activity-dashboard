@@ -2,14 +2,11 @@
 
 ## Technologies used: HTML & SCSS
 
-<br/>
-
 ## Features: Mobile First workflow, Flexbox & Grid, BEM
 
 ---
-### Live Website [Here]()
+### Live Website [Here](https://activity-dashboard.netlify.app)
 
-<br/>
 
 ### My social activity: [Twitter](https://twitter.com/dragoshcode) | [Linkedin](https://linkedin.com/in/dragoshcode)
 
